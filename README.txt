@@ -1,19 +1,14 @@
-FISH EL PRESTIGIOSO — Multilingual website starter
-=================================================
+FISH EL PRESTIGIOSO — Seafood import/export beta website
 
-Files:
-- index.html: the full single-page website
-- styles.css: responsive navy / white / gold styling
-- script.js: French, Arabic (RTL), and English language switcher + enquiry form
+This is a static, responsive website in French, English and Arabic (RTL). It focuses on wholesale fresh/frozen seafood, international supply, logistics, road freight, sea freight and air freight.
 
-Preview:
-Open index.html in a browser. An internet connection is needed for the remote Unsplash photography and Google Fonts.
+To update your existing GitHub beta:
+1. Download and extract this ZIP.
+2. Open https://github.com/zakadili/fish-elprestigioso
+3. Choose Add file > Upload files.
+4. Upload index.html, styles.css, script.js and README.txt to the repository ROOT.
+5. Commit changes to main. Confirm replacement of existing files when asked.
+6. Keep Settings > Pages set to branch main and folder /(root).
+7. After deployment, visit https://zakadili.github.io/fish-elprestigioso/
 
-Before publishing:
-1. Replace the mailto: placeholder in script.js with the company's verified sales email address.
-2. Confirm the company's real product range, certificates, export destinations, cold-chain capabilities, and years/countries figures. The visual design uses illustrative marketing placeholders; don't publish unverified claims as facts.
-3. Replace photography with company-owned images where possible.
-4. Connect a real contact form/backend if you want enquiries delivered without the visitor's email application.
-5. Upload the files to your hosting provider or deploy using GitHub Pages / Cloudflare Pages.
-
-No third-party backend or API key is required for this static preview.
+Before launch: the contact form opens the visitor's email app but has no recipient address configured yet. Add a verified company email to the mailto: line in script.js. Images are illustrative stock images. Confirm actual product availability, logistics arrangements, certificates and company claims before publication. The site does not claim the company owns trucks, ships or aircraft.
