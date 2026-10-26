@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970 530" role="img" aria-label="Illustration stylisée d'un thon argenté en mouvement">
+<defs>
+ <linearGradient id="body" x1=".4" x2=".56" y1="0" y2="1"><stop offset="0" stop-color="#021527"/><stop offset=".11" stop-color="#075984"/><stop offset=".29" stop-color="#37add3"/><stop offset=".41" stop-color="#0a4565"/><stop offset=".54" stop-color="#9de2ea"/><stop offset=".67" stop-color="#ecf8fa"/><stop offset=".81" stop-color="#568fa5"/><stop offset="1" stop-color="#093650"/></linearGradient>
+ <linearGradient id="tail" x1="0" y1=".5" x2="1" y2=".5"><stop stop-color="#5dc7dd"/><stop offset=".55" stop-color="#06344e"/><stop offset="1" stop-color="#08293b"/></linearGradient>
+ <linearGradient id="fin" x1="0" x2="0.8" y1="0" y2="1"><stop stop-color="#e7b76d"/><stop offset=".25" stop-color="#236d8d"/><stop offset="1" stop-color="#021b35"/></linearGradient>
+ <radialGradient id="glow" cx="65%" cy="38%" r="55%"><stop stop-color="#ffffff" stop-opacity=".75"/><stop offset=".43" stop-color="#00cfff" stop-opacity=".3"/><stop offset="1" stop-color="#03a5d7" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-40%" width="160%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+ <filter id="soft" x="-15%" y="-15%" width="130%" height="130%"><feGaussianBlur stdDeviation="2.2"/></filter>
+ <pattern id="scale" width="29" height="19" patternUnits="userSpaceOnUse"><path d="M0 10 Q14 0 29 10" fill="none" stroke="#d3f5fe" opacity=".17" stroke-width="1.2"/></pattern>
+</defs>
+<ellipse cx="535" cy="275" rx="440" ry="195" fill="url(#glow)" opacity=".55"/>
+<path d="M188 289 Q75 186 60 137 Q95 228 192 241 Q112 319 48 385 Q122 348 190 309Z" fill="#021e35" opacity=".5" transform="translate(16 18)" filter="url(#shadow)"/>
+<g transform="translate(12 5) rotate(-8 495 270)">
+<!-- forked tail -->
+<path d="M206 276 C149 250 77 184 48 113 C77 219 103 247 185 269 C114 296 81 368 47 420 C118 359 169 338 214 297 L243 285Z" fill="url(#tail)" stroke="#4cb3cd" stroke-width="4"/>
+<path d="M184 273 C141 235 100 196 75 150" fill="none" stroke="#a1e8f2" stroke-width="2.8" opacity=".85"/>
+<path d="M181 299 C137 338 102 372 72 400" fill="none" stroke="#2a92b5" stroke-width="2.8" opacity=".8"/>
+<!-- dorsal fin -->
+<path d="M383 205 Q455 100 481 47 Q478 139 513 199 Z" fill="url(#fin)" stroke="#3d9dbd" stroke-width="2.5"/>
+<path d="M502 199 Q551 133 589 120 Q553 160 560 209Z" fill="#07364e" stroke="#47b4cb" stroke-width="2"/>
+<!-- top dorsal finlets -->
+<path d="M612 203 l19 -27 -3 31 m12 1 l17 -23 -2 29 m15 4 l14 -19 -2 28 m16 9 l14 -14 -2 24" fill="none" stroke="#e8bb68" stroke-width="6" stroke-linecap="round"/>
+<!-- lower fin -->
+<path d="M474 347 Q482 433 523 476 Q523 412 562 352 Z" fill="url(#fin)" stroke="#51aac9" stroke-width="2.5"/>
+<!-- lower finlets -->
+<path d="M599 355 l20 23 -5 -25 m26 -7 l17 20 -6 -25 m27 -5 l13 17 -6 -19" stroke="#d8a75e" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+<!-- fish body -->
+<path id="fishBody" d="M205 281 C263 212 369 181 486 188 C616 193 749 230 850 273 Q879 284 900 310 Q852 336 778 344 C670 367 532 371 401 355 C295 339 239 310 205 281Z" fill="url(#body)" stroke="#8cd7e9" stroke-width="3.5"/>
+<path d="M215 278 C313 204 468 199 606 222 C730 245 801 267 882 307" stroke="#bbf9fe" stroke-width="7" fill="none" opacity=".74"/>
+<path d="M225 296 C368 345 583 357 755 329" stroke="#001c31" stroke-width="7" fill="none" opacity=".65"/>
+<path d="M226 281 C330 213 535 212 716 254 Q815 279 878 308" stroke="#034467" fill="none" stroke-width="1.6" opacity=".5"/>
+<path d="M216 275 C320 206 550 204 737 261 Q844 295 888 312" stroke="#8ff8ff" fill="none" stroke-width="2.4" opacity=".7"/>
+<path d="M204 278 C294 226 462 217 580 240 C674 257 770 280 860 309 C762 283 647 282 555 281 C411 281 291 285 204 278Z" fill="#021d31" opacity=".23"/>
+<path d="M207 281 C300 217 461 211 624 240 C715 257 810 291 875 305 C784 303 677 305 574 315 C412 327 283 313 207 281 Z" fill="url(#scale)" opacity=".75"/>
+<!-- gill and head details -->
+<path d="M763 241 C736 261 731 321 764 343" stroke="#003c58" stroke-width="8" fill="none" opacity=".8"/>
+<path d="M755 244 C723 271 717 320 757 347" stroke="#c2e9e9" stroke-width="2" fill="none" opacity=".95"/>
+<path d="M770 329 Q824 322 882 309" stroke="#041f31" stroke-width="2.8" fill="none"/>
+<path d="M837 310 Q861 317 899 310" stroke="#e5f9fa" stroke-width="2.2" fill="none"/>
+<circle cx="828" cy="279" r="13" fill="#041524" stroke="#d9eef0" stroke-width="3.8"/><circle cx="824" cy="275" r="4" fill="white"/>
+<path d="M722 322 Q671 390 600 410 Q626 360 648 328" fill="url(#fin)" stroke="#2b8fb4" stroke-width="2.4"/>
+<path d="M662 347 Q640 377 623 396" stroke="#b9edf0" stroke-width="2.2" fill="none" opacity=".8"/>
+<path d="M754 269 l37 19" stroke="#4db3cb" stroke-width="3" opacity=".7"/>
+</g>
+</svg>
