@@ -41,3 +41,8 @@ GitHub Pages settings: **Settings → Pages → Deploy from a branch → main �
 4. Check that you have permission to publish any images featuring identifiable people; this site deliberately prioritizes cargo and products.
 
 The site needs **no npm, Node, database or backend** to run.
+
+
+## Images mises à jour (octobre 2026)
+
+Les visuels `export-cartons.webp` et `truck-loading.webp` ont été remplacés respectivement par une illustration générée d’entrepôt frigorifique et une illustration générée de port de pêche. Ces images sont **illustratives** et ne représentent pas des installations vérifiées de Fish El Prestigioso. Les chemins des fichiers sont inchangés pour préserver le site et la galerie.
