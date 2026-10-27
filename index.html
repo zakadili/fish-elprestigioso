@@ -12,7 +12,18 @@
 <link rel="stylesheet" href="styles.css">
 <script src="script.js" defer></script>
 </head>
-<body>
+<body class="site-loading">
+<div id="fep-loader" class="fep-loader" role="status" aria-live="polite" aria-label="Chargement du site">
+  <div class="fep-loader__water" aria-hidden="true"></div>
+  <div class="fep-loader__content">
+    <div class="fep-loader__eyebrow">DAKHLA · ATLANTIC OCEAN</div>
+    <div class="fep-loader__scene" aria-hidden="true"><div class="fep-loader__fish"><img src="assets/tuna.svg" alt=""></div><div class="fep-loader__shadow"></div><div class="fep-loader__bubble b1"></div><div class="fep-loader__bubble b2"></div><div class="fep-loader__bubble b3"></div></div>
+    <div class="fep-loader__brand">FISH <span>EL PRESTIGIOSO</span></div>
+    <div class="fep-loader__subtitle" id="fep-loading-label">Chargement de l'océan...</div>
+    <div class="fep-loader__progress"><div id="fep-loader-fill" class="fep-loader__fill"></div></div>
+    <div class="fep-loader__numbers"><span>SEAFOOD · MOROCCO</span><strong id="fep-loader-percent">0%</strong></div>
+  </div>
+</div>
 <a class="skip-link" href="#main" data-t="skip">Aller au contenu principal</a>
 <header class="header" id="top">
   <a class="brand" href="#top" aria-label="Fish El Prestigioso">

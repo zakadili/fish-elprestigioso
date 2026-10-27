@@ -46,3 +46,7 @@ The site needs **no npm, Node, database or backend** to run.
 ## Images mises à jour (octobre 2026)
 
 Les visuels `export-cartons.webp` et `truck-loading.webp` ont été remplacés respectivement par une illustration générée d’entrepôt frigorifique et une illustration générée de port de pêche. Ces images sont **illustratives** et ne représentent pas des installations vérifiées de Fish El Prestigioso. Les chemins des fichiers sont inchangés pour préserver le site et la galerie.
+
+
+## Nouveauté : animation de chargement
+Écran plein écran avec poisson animé en perspective 3D, bulles et compteur de 0 à 100 %. Le chargement s'arrête lorsque la page est prête (délai de secours de 7 secondes). Compatible mobile et préférences de réduction des animations. Aucun serveur ou module externe requis.

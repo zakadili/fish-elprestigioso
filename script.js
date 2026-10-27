@@ -1,3 +1,26 @@
+// Loader: visual progress tracks real page readiness; 100% is only shown once ready.
+(() => {
+ const layer=document.getElementById('fep-loader'); if(!layer)return;
+ const fill=document.getElementById('fep-loader-fill');const number=document.getElementById('fep-loader-percent');const label=document.getElementById('fep-loading-label');
+ const labels={fr:["Chargement de l'océan...","Bienvenue à bord"],en:["Loading the ocean...","Welcome aboard"],ar:["جاري تحميل المحيط...","مرحباً بكم"]};
+ let current=0, ready=false, finished=false; const start=performance.now();
+ const lang=()=>{const l=document.documentElement.lang;return labels[l]||labels.fr};
+ const tick=()=>{
+  if(finished)return;
+  const elapsed=performance.now()-start;
+  const target=ready?100:Math.min(94,Math.floor(elapsed/45));
+  current=Math.min(target,current+(ready?3:1.4));
+  const shown=Math.min(100,Math.floor(current));fill.style.width=shown+'%';number.textContent=shown+'%';label.textContent=ready&&shown===100?lang()[1]:lang()[0];
+  if(ready&&shown===100&&elapsed>=2200){finished=true;setTimeout(()=>{layer.classList.add('is-done');document.body.classList.remove('site-loading');setTimeout(()=>layer.remove(),850)},350);return}
+  requestAnimationFrame(()=>setTimeout(tick,30));
+ };
+ const markReady=()=>{ready=true};
+ if(document.readyState==='complete')markReady();else window.addEventListener('load',markReady,{once:true});
+ // Fallback if a third-party resource stalls; site remains usable.
+ setTimeout(markReady,7000);
+ tick();
+})();
+
 'use strict';
 const TRANSLATIONS = {
 fr: {
